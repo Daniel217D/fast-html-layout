@@ -1,0 +1,31 @@
+{
+  "name": "fast-html-layout",
+  "version": "1.0.0",
+  "author": "Daniel Dubchenko <daniel217032001@gmail.com>",
+  "description": "template for quick development of html templates",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "scss",
+    "parcel"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel src/templates/pages/*.html",
+    "build": "parcel build src/templates/pages/*.html"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "android 4",
+    "opera 12"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "1.12.3",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

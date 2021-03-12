@@ -1,0 +1,11 @@
+%link {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.is-link {
+	@extend %link;
+}
